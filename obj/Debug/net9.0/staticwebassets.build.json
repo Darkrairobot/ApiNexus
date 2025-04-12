@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lL4zMVPDgIXR9+rKdHYqsde7GkVpkHHAL7DcoFg63zM=",
+  "Source": "ApiNexus",
+  "BasePath": "_content/ApiNexus",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
