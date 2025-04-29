@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "ApiNexus.Controllers.ClienteController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Cliente/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "ApiNexus.Models.ClienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNexus.Controllers.ClienteController",
+    "Method": "CadastrarCliente",
+    "RelativePath": "api/Cliente/Cadastrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "ApiNexus.Models.ClienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNexus.Controllers.ClienteController",
+    "Method": "DeletarCliente",
+    "RelativePath": "api/Cliente/Deletar/{id_cliente}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_cliente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNexus.Controllers.ClienteController",
+    "Method": "ListarClientes",
+    "RelativePath": "api/Cliente/ListarClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNexus.Controllers.ClienteController",
+    "Method": "PesquisarCliente",
+    "RelativePath": "api/Cliente/PesquisarCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametroPesquisa",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiNexus.Controllers.LoginController",
     "Method": "fazerLogin",
     "RelativePath": "api/Login",

@@ -52,9 +52,17 @@ namespace ApiNexus.Repository
 
         public async Task<UsuarioModel> login(string email, string senha)
         {
-            var cliente = await _context.caduse.FirstOrDefaultAsync(x => x.email == email && x.senha == senha);
-            if (cliente == null) return null;
-            return cliente;
+            try
+            {
+                var cliente = await _context.caduse.FirstOrDefaultAsync(x => x.email == email && x.senha == senha);
+                if (cliente == null) return null;
+                return cliente;
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Erro ao fazer login", ex);
+            }
+            
         }
 
     }

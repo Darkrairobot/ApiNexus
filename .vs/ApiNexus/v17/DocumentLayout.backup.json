@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mayco\\Projetos\\ApiNexus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|c:\\users\\mayco\\projetos\\apinexus\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|solutionrelative:repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|c:\\users\\mayco\\projetos\\apinexus\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|c:\\users\\mayco\\projetos\\apinexus\\repository\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|solutionrelative:repository\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|c:\\users\\mayco\\projetos\\apinexus\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|solutionrelative:models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|c:\\users\\mayco\\projetos\\apinexus\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|c:\\users\\mayco\\projetos\\apinexus\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42CF7A9D-75CB-4A66-9988-F7D5141CBF30}|ApiNexus.csproj|solutionrelative:repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 197,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Repository\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Repository\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T21:29:03.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Repository\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Repository\\UsuarioRepository.cs",
-              "RelativeToolTip": "Repository\\UsuarioRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T21:22:31.46Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -76,29 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Models\\UsuarioModel.cs",
-              "RelativeDocumentMoniker": "Models\\UsuarioModel.cs",
-              "ToolTip": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Models\\UsuarioModel.cs",
-              "RelativeToolTip": "Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T21:22:46.152Z",
+              "WhenOpened": "2025-04-18T01:20:50.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\mayco\\Projetos\\ApiNexus\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwFcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:30:47.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T01:18:59.733Z"
             }
           ]
         }

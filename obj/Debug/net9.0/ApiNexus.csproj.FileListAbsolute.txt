@@ -45,3 +45,4 @@ C:\Users\mayco\Projetos\ApiNexus\obj\Debug\net9.0\refint\ApiNexus.dll
 C:\Users\mayco\Projetos\ApiNexus\obj\Debug\net9.0\ApiNexus.pdb
 C:\Users\mayco\Projetos\ApiNexus\obj\Debug\net9.0\ApiNexus.genruntimeconfig.cache
 C:\Users\mayco\Projetos\ApiNexus\obj\Debug\net9.0\ref\ApiNexus.dll
+C:\Users\mayco\Projetos\ApiNexus\obj\Debug\net9.0\ApiNexus.sourcelink.json

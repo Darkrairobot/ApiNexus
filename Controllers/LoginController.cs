@@ -18,14 +18,21 @@ namespace ApiNexus.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> fazerLogin(string email, string senha)
+        public async Task<IActionResult> fazerLogin([FromQuery] string email, string senha)
         {
-            
-            UsuarioModel usuario = await _usuarioRepository.login(email, senha);  
+            try
+            {
+                UsuarioModel usuario = await _usuarioRepository.login(email, senha);
 
-            if(usuario == null) return NotFound("usuario nao encontrado");
-           
-            return Ok(usuario);
+                if (usuario == null) return Unauthorized("usuario nao encontrado");
+
+                return Ok(usuario);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Erro: {ex.Message}");
+            }
+            
 
         }
     }

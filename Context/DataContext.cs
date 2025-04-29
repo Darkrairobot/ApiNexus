@@ -11,5 +11,7 @@ namespace ApiNexus.Context
 
         public DbSet<UsuarioModel> caduse { get; set; }
 
+        public DbSet<ClienteModel> cadcli { get; set; }
+
     }
 }
